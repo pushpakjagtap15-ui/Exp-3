@@ -36,46 +36,7 @@ A **list** is a built-in Python data type used to store a collection of items.
 
 ---
 
-## Practical Implementation
 
-###  List Operations
-
-cities = ["Pune", "Mumbai", "Delhi"]
-cities.append("Chennai")       # Add at end
-cities.insert(1, "Nagpur")     # Insert at index 1
-fruits = ["Apple", "Banana"]
-fruits.extend(["Mango", "Orange"])  # Extend list
-Indexing & Slicinnumbers = [10, 20, 30, 40, 50]
-print(numbers[0])     # First element → 10
-print(numbers[-1])    # Last element → 50
-print(numbers[1:4])   # Slice → [20, 30, 40]
-print(numbers[::-1])  # Reverse list → [50, 40, 30, 20, 10]
-_ Data Analysis
-
-data = [12, 45, 67, 23, 89]
-print("Max:", max(data))       # 89
-print("Min:", min(data))       # 12
-print("Sum:", sum(data))       # 236
-print("Average:", sum(data)/len(data))  # 47.2
-Real-world Applications
-_ Grocery Shopping List
-python
-shopping_list = []
-shopping_list.append("Milk")
-shopping_list.append("Bread")
-shopping_list.append("Eggs")
-
-print("Shopping List:")
-for item in shopping_list:
-    print("-", item)
-_ Daily Expense Tracker
-
-expenses = [200, 150, 300, 100, 250, 400, 350]
-weekly_total = sum(expenses)
-average_expense = weekly_total / len(expenses)
-
-print("Weekly Total:", weekly_total)
-print("Average Expense:", average_expense)
 
 
 Conclusion
